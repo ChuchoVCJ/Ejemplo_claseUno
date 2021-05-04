@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white ;
+}
+
+#menu{
+    background-color: rgba(100, 20, 20, 1);
+}
+
+header{
+background:url('../images/Captura.PNG') ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contenedor{
+    font-size: 48px;
+    color: #fff;
+    border: 10px double;
+}
