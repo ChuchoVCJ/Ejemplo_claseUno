@@ -1,0 +1,55 @@
+body{
+    background: url('../images/fondo1.jpg');
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover a{
+    border-bottom: 3px solid darkred;
+    font-size: larger;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.Forms{
+    width: 100%;
+    float: none;
+    position: initial 200px;
+    color: gray;
+}
+
+form{
+  width  : 50%;
+  margin : 10px auto;
+  background-size: cover;
+  padding: 100px;
+  border: groove 3px;
+}
+
+form label{
+    color:white;
+    padding: 20px; 
+}
+
+form input{
+    margin-bottom: 10px;
+}
